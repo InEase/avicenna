@@ -271,13 +271,20 @@ h2 code {
     margin-top: 1%;
 }
 
+
 /* Custom CSS */
 
 .profile-wrapper {
-    border-radius: 50%;
     width: 216px;
     height: 216px;
     margin: auto;
     margin-top: 10px;
     overflow: hidden;
+    position: relative;
+}
+
+#profile_picture {
+    position: absolute;
+    top: -30px;
+    scale: 0.7;
 }
